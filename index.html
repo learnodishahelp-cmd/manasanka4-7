@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>ଶ୍ରେଣୀ ୪ - ବୈଦିକ ଗଣିତ | Class 4 Vedic Math - Baidika Ganita</title>
+    <meta name="description" content="ଶ୍ରେଣୀ ୪ ପିଲାଙ୍କ ପାଇଁ ବୈଦିକ ଗଣିତ, ପୂର୍ବ ପାଠର ଆଲୋଚନା - ୪ଟି ଭିଡିଓ । Odia medium class 4 Vedic mathematics app with video lessons on Baidika Ganita and revision of previous topics.">
+    <meta name="keywords" content="ବୈଦିକ ଗଣିତ, Baidika Ganita, Class 4 math, Odia math, Vedic math, Odia medium, ଶ୍ରେଣୀ ୪, ପୂର୍ବ ପାଠର ଆଲୋଚନା, mobile learning, Odia education">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Learn Odisha">
+    <link rel="canonical" href="https://learnodishahelp-cmd.github.io/Quizmaster4/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ଶ୍ରେଣୀ ୪ - ବୈଦିକ ଗଣିତ | Class 4 Vedic Math">
+    <meta property="og:description" content="ଓଡ଼ିଆ ମାଧ୍ୟମରେ ବୈଦିକ ଗଣିତ ଶିଖନ୍ତୁ, ୪ଟି ଭିଡିଓ ସହିତ।">
+    <meta property="og:url" content="https://learnodishahelp-cmd.github.io/Quizmaster4/">
+    <meta property="og:image" content="https://learnodishahelp-cmd.github.io/Quizmaster4/og-image.png">
+    <meta property="og:locale" content="or_IN">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ଶ୍ରେଣୀ ୪ - ବୈଦିକ ଗଣିତ">
+    <meta name="twitter:description" content="Odia Vedic Math for Class 4">
+    <meta name="twitter:image" content="https://learnodishahelp-cmd.github.io/Quizmaster4/og-image.png">
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "EducationalApplication",
+            "name": "ଶ୍ରେଣୀ ୪ - ବୈଦିକ ଗଣିତ",
+            "alternateName": "Class 4 Baidika Ganita",
+            "description": "Odia medium Vedic mathematics learning app with four video lessons and revision of previous topics.",
+            "operatingSystem": "Any",
+            "applicationCategory": "EducationalApplication",
+            "url": "https://learnodishahelp-cmd.github.io/Quizmaster4/",
+            "inLanguage": "or",
+            "learningResourceType": ["Video lessons", "Math practice"],
+            "author": {
+                "@type": "Organization",
+                "name": "Learn Odisha"
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --bg: #f8f5ff;
+            --card-bg: #ffffff;
+            --primary: #4a148c;
+            --primary-light: #ede7f6;
+            --secondary: #e65100;
+            --accent: #ff8f00;
+            --text: #2a1a3e;
+            --text-light: #4e3b6e;
+            --border: #d1c4e9;
+            --shadow: 0 4px 20px rgba(0,0,0,0.06);
+            --shadow-hover: 0 8px 28px rgba(0,0,0,0.12);
+            --radius: 22px;
+            --radius-sm: 14px;
+            --font-odia: 'Noto Sans Oriya', 'Noto Sans', 'Arial Unicode MS', sans-serif;
+            --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+        }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+
+        body {
+            font-family: var(--font-odia);
+            background: linear-gradient(150deg, #f8f5ff 0%, #ede7f6 30%, #fff8e1 70%, #f8f5ff 100%);
+            background-attachment: fixed;
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 12px;
+            -webkit-tap-highlight-color: transparent;
+            -webkit-font-smoothing: antialiased;
+            user-select: none;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: -110px; right: -70px;
+            width: 280px; height: 280px;
+            background: radial-gradient(circle, rgba(74,20,140,0.06) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+        }
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -100px; left: -80px;
+            width: 260px; height: 260px;
+            background: radial-gradient(circle, rgba(255,143,0,0.05) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 600px;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 18px 18px 14px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            border: 2px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left:0; right:0;
+            height: 5px;
+            background: linear-gradient(90deg, #4a148c, #ff8f00, #4a148c, #e65100, #4a148c);
+            border-radius: 0 0 var(--radius) var(--radius);
+        }
+        .share-btn-top {
+            position: absolute;
+            top: 14px; right: 16px;
+            background: #ede7f6;
+            border: none;
+            border-radius: 50%;
+            width: 42px; height: 42px;
+            display: flex;
+            align-items: center; justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 12px rgba(74,20,140,0.15);
+            transition: all 0.25s ease;
+            z-index: 2;
+            color: #4a148c;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .share-btn-top:hover { background: #d1c4e9; transform: scale(1.08); }
+        .share-btn-top:active { transform: scale(0.94); background: #b39ddb; }
+        .share-btn-top svg {
+            width: 20px; height: 20px;
+            fill: currentColor;
+        }
+        .header .icon-row {
+            font-size: 38px;
+            margin-bottom: 4px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%,100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
+        }
+        .header h1 {
+            font-size: clamp(1.6rem, 4.5vw, 2rem);
+            color: var(--primary);
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            line-height: 1.3;
+        }
+        .header .subtitle {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-top: 2px;
+            font-weight: 500;
+        }
+        .header .badge {
+            display: inline-block;
+            background: var(--primary-light);
+            color: var(--primary);
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 6px;
+            letter-spacing: 0.03em;
+        }
+
+        /* Info Cards */
+        .info-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        .info-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-sm);
+            padding: 16px 12px;
+            box-shadow: var(--shadow);
+            border: 2px solid var(--border);
+            text-align: center;
+            transition: var(--transition);
+            cursor: default;
+        }
+        .info-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+        .info-card .card-emoji { font-size: 34px; margin-bottom: 4px; }
+        .info-card h3 { font-size: 0.95rem; color: var(--primary); font-weight: 700; }
+        .info-card p { font-size: 0.78rem; color: var(--text-light); margin-top: 2px; line-height: 1.4; }
+        .info-card.card-accent h3 { color: var(--secondary); }
+        .info-card.card-accent { border-color: #ffccbc; }
+
+        /* Video Card */
+        .video-card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            border: 2px solid var(--border);
+            transition: var(--transition);
+        }
+        .video-card:hover { box-shadow: var(--shadow-hover); }
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            background: #1a1a1a;
+            overflow: hidden;
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top:0; left:0;
+            width: 100%; height: 100%;
+            border: none;
+        }
+        .video-info {
+            padding: 14px 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #faf9ff;
+            border-top: 1px solid var(--border);
+        }
+        .video-info .play-icon {
+            width: 38px; height: 38px;
+            border-radius: 50%;
+            background: #4a148c;
+            display: flex;
+            align-items: center; justify-content: center;
+            flex-shrink: 0;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%,100% { box-shadow: 0 0 0 0 rgba(74,20,140,0.4); }
+            50% { box-shadow: 0 0 0 14px rgba(74,20,140,0); }
+        }
+        .video-info .play-icon svg {
+            width: 16px; height: 16px;
+            fill: #fff;
+        }
+        .video-info .info-text { flex:1; min-width:0; }
+        .video-info .part-label {
+            font-size:0.75rem; color: #4a148c; font-weight:700;
+            text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        .video-info .part-title {
+            font-size: 0.95rem; color: var(--text); font-weight:600;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+
+        /* Tabs */
+        .tabs-nav {
+            display: flex;
+            gap: 8px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding: 4px 2px 8px;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        .tabs-nav::-webkit-scrollbar { display: none; }
+        .tab-btn {
+            flex: 0 0 auto;
+            padding: 11px 18px;
+            border-radius: 30px;
+            border: 2px solid #d1c4e9;
+            background: #faf9ff;
+            color: var(--text-light);
+            font-family: var(--font-odia);
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            white-space: nowrap;
+            letter-spacing: 0.02em;
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .tab-btn:hover { background: #ede7f6; border-color: #b39ddb; color: #4a148c; }
+        .tab-btn.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+            box-shadow: 0 4px 16px rgba(74,20,140,0.35);
+            transform: translateY(-2px);
+        }
+        .tab-btn .tab-emoji { display: inline-block; margin-right: 5px; }
+
+        .footer {
+            text-align: center;
+            padding: 8px 4px 20px;
+            font-size: 0.75rem;
+            color: #7e6e91;
+            letter-spacing: 0.03em;
+        }
+        .footer span { color: #4a148c; font-weight: 600; }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 30px; left: 50%;
+            transform: translateX(-50%) scale(0.9);
+            background: #311b92;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            z-index: 999;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s, transform 0.3s;
+            box-shadow: 0 10px 20px rgba(49,27,146,0.3);
+        }
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) scale(1);
+            pointer-events: auto;
+        }
+
+        @media (max-width: 420px) {
+            .app-container { gap: 12px; }
+            .header { padding: 16px 12px 12px; }
+            .header h1 { font-size: 1.4rem; }
+            .header .icon-row { font-size: 32px; gap: 8px; }
+            .tab-btn { padding: 9px 12px; font-size: 0.8rem; }
+            .info-cards { grid-template-columns: 1fr; gap: 8px; }
+            .info-card { padding: 12px 10px; }
+            .video-info { padding: 10px 12px; gap: 8px; }
+            .video-info .play-icon { width: 30px; height: 30px; }
+            .share-btn-top { width: 36px; height: 36px; top: 12px; right: 12px; }
+            .share-btn-top svg { width: 18px; height: 18px; }
+        }
+        @media (min-width: 421px) and (max-width: 768px) {
+            .app-container { max-width: 560px; }
+        }
+        @media (min-width: 769px) {
+            .app-container { max-width: 620px; }
+            body { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="app-container">
+        <header class="header">
+            <button class="share-btn-top" id="shareButton" aria-label="Share this app" title="Share">
+                <svg viewBox="0 0 24 24">
+                    <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/>
+                </svg>
+            </button>
+            <div class="icon-row">🕉️➕✖️</div>
+            <h1>ଶ୍ରେଣୀ ୪ - ବୈଦିକ ଗଣିତ</h1>
+            <p class="subtitle">ପୂର୍ବ ପାଠର ଆଲୋଚନା</p>
+            <span class="badge">📚 ଓଡ଼ିଆ ମାଧ୍ୟମ</span>
+        </header>
+
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="card-emoji">📿</div>
+                <h3>ବୈଦିକ ଗଣିତ</h3>
+                <p>ସହଜ ଓ ଶୀଘ୍ର ହିସାବ ପଦ୍ଧତି</p>
+            </div>
+            <div class="info-card card-accent">
+                <div class="card-emoji">🔄</div>
+                <h3>ପୂର୍ବ ପାଠ</h3>
+                <p>ଆଗରୁ ଶିଖିଥିବା ପାଠର ପୁନରାଲୋଚନା</p>
+            </div>
+        </div>
+
+        <nav class="tabs-nav" id="tabsNav" aria-label="Video parts navigation">
+            <button class="tab-btn active" data-part="1" data-video-id="RKSMqbRb5F8" onclick="switchPart(1,'RKSMqbRb5F8',this,23)"><span class="tab-emoji">1️⃣</span> ଭାଗ ୧</button>
+            <button class="tab-btn" data-part="2" data-video-id="1umiUobZ_Xk" onclick="switchPart(2,'1umiUobZ_Xk',this)"><span class="tab-emoji">2️⃣</span> ଭାଗ ୨</button>
+            <button class="tab-btn" data-part="3" data-video-id="_gF-NSkzTNw" onclick="switchPart(3,'_gF-NSkzTNw',this)"><span class="tab-emoji">3️⃣</span> ଭାଗ ୩</button>
+            <button class="tab-btn" data-part="4" data-video-id="Hn-UxKN_rZM" onclick="switchPart(4,'Hn-UxKN_rZM',this)"><span class="tab-emoji">4️⃣</span> ଭାଗ ୪</button>
+        </nav>
+
+        <article class="video-card" id="videoCard" aria-labelledby="video-heading">
+            <div class="video-wrapper">
+                <iframe id="videoIframe" src="https://www.youtube.com/embed/RKSMqbRb5F8?start=23&rel=0&modestbranding=1"
+                    title="ବୈଦିକ ଗଣିତ - ଭାଗ ୧"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen loading="lazy">
+                </iframe>
+            </div>
+            <div class="video-info">
+                <div class="play-icon">
+                    <svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19"/></svg>
+                </div>
+                <div class="info-text">
+                    <span class="part-label" id="partLabel">ଭାଗ ୧</span>
+                    <div class="part-title" id="partTitle">ବୈଦିକ ଗଣିତ - ପ୍ରଥମ ଭାଗ</div>
+                </div>
+            </div>
+        </article>
+
+        <footer class="footer">
+            ✨ ଶ୍ରେଣୀ ୪ <span>ବୈଦିକ ଗଣିତ</span> | ୪ଟି ଭିଡିଓ | Share & Learn ✨
+        </footer>
+    </main>
+
+    <div class="toast" id="toast" aria-live="polite">🔗 ଲିଙ୍କ କପି ହୋଇଛି!</div>
+
+    <script>
+        (function() {
+            const videoData = {
+                1: { id: 'RKSMqbRb5F8', title: 'ବୈଦିକ ଗଣିତ - ପ୍ରଥମ ଭାଗ', label: 'ଭାଗ ୧', start: 23 },
+                2: { id: '1umiUobZ_Xk', title: 'ବୈଦିକ ଗଣିତ - ଦ୍ୱିତୀୟ ଭାଗ', label: 'ଭାଗ ୨', start: 0 },
+                3: { id: '_gF-NSkzTNw', title: 'ବୈଦିକ ଗଣିତ - ତୃତୀୟ ଭାଗ', label: 'ଭାଗ ୩', start: 0 },
+                4: { id: 'Hn-UxKN_rZM', title: 'ବୈଦିକ ଗଣିତ - ଚତୁର୍ଥ ଭାଗ', label: 'ଭାଗ ୪', start: 0 }
+            };
+
+            let currentPart = 1;
+            let isSwitching = false;
+            const SHARE_URL = 'https://learnodishahelp-cmd.github.io/Quizmaster4/';
+            const SHARE_TITLE = 'ଶ୍ରେଣୀ ୪ - ବୈଦିକ ଗଣିତ | Class 4 Vedic Math';
+            const SHARE_TEXT = 'ଓଡ଼ିଆ ମାଧ୍ୟମରେ ବୈଦିକ ଗଣିତ ଶିଖନ୍ତୁ! Check out this Class 4 Baidika Ganita app.';
+
+            window.switchPart = function(partNumber, videoId, btnElement, startSec = 0) {
+                if (isSwitching || partNumber === currentPart) return;
+                isSwitching = true;
+
+                document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                if (btnElement) btnElement.classList.add('active');
+                currentPart = partNumber;
+
+                const data = videoData[partNumber];
+                const iframe = document.getElementById('videoIframe');
+                let src = `https://www.youtube.com/embed/${data.id}?rel=0&modestbranding=1`;
+                if (data.start && data.start > 0) {
+                    src += `&start=${data.start}`;
+                }
+                iframe.src = src;
+
+                document.getElementById('partLabel').textContent = data.label;
+                document.getElementById('partTitle').textContent = data.title;
+
+                const videoCard = document.getElementById('videoCard');
+                videoCard.style.transform = 'scale(1.015)';
+                videoCard.style.transition = 'transform 0.2s ease-out';
+                setTimeout(() => { videoCard.style.transform = 'scale(1)'; }, 200);
+
+                if (btnElement) {
+                    btnElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                }
+
+                setTimeout(() => { isSwitching = false; }, 400);
+                if (navigator.vibrate) navigator.vibrate(8);
+            };
+
+            function showToast(msg) {
+                const toast = document.getElementById('toast');
+                toast.textContent = msg;
+                toast.classList.add('show');
+                clearTimeout(toast._timeout);
+                toast._timeout = setTimeout(() => toast.classList.remove('show'), 2500);
+            }
+
+            async function handleShare() {
+                if (navigator.share) {
+                    try {
+                        await navigator.share({ title: SHARE_TITLE, text: SHARE_TEXT, url: SHARE_URL });
+                    } catch (e) {}
+                } else {
+                    try {
+                        await navigator.clipboard.writeText(SHARE_URL);
+                        showToast('🔗 ଲିଙ୍କ କପି ହୋଇଛି!');
+                    } catch (e) {
+                        const ta = document.createElement('textarea');
+                        ta.value = SHARE_URL;
+                        document.body.appendChild(ta);
+                        ta.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(ta);
+                        showToast('🔗 ଲିଙ୍କ କପି ହୋଇଛି!');
+                    }
+                }
+            }
+
+            document.getElementById('shareButton').addEventListener('click', handleShare);
+
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('touchstart', function() {
+                    this.style.transform = 'scale(0.94)';
+                    this.style.transition = 'transform 0.1s ease';
+                }, { passive: true });
+                btn.addEventListener('touchend', function() {
+                    this.style.transform = '';
+                    this.style.transition = 'transform 0.2s ease';
+                });
+                btn.addEventListener('touchcancel', function() {
+                    this.style.transform = '';
+                });
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowRight' && currentPart < 4) {
+                    e.preventDefault();
+                    const next = currentPart + 1;
+                    const btn = document.querySelector(`.tab-btn[data-part="${next}"]`);
+                    if (btn) switchPart(next, videoData[next].id, btn, videoData[next].start);
+                } else if (e.key === 'ArrowLeft' && currentPart > 1) {
+                    e.preventDefault();
+                    const prev = currentPart - 1;
+                    const btn = document.querySelector(`.tab-btn[data-part="${prev}"]`);
+                    if (btn) switchPart(prev, videoData[prev].id, btn, videoData[prev].start);
+                }
+            });
+
+            console.log('✅ ବୈଦିକ ଗଣିତ ଆପ୍ ପ୍ରସ୍ତୁତ | Baidika Ganita App – 4 parts');
+        })();
+    </script>
+</body>
+</html>
